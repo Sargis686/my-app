@@ -1,0 +1,75 @@
+
+body {
+  background: url('../../../public/assets/background.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  position: relative;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  //justify-content: space-around;
+  //height: 85vh;
+  //width: 90%;
+  width:70%;
+  //margin: 200px;
+
+}
+
+.img {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+img {
+  //max-width: 100%;
+  //height: auto;
+  max-inline-size: 100%;
+
+}
+//.wrapperMain{
+//  display: flex;
+//  justify-content: space-between;
+//
+//
+//}
+
+.w {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 150px;
+}
+
+
+@media only screen and (max-width: 868px){
+  .content{
+    position:relative;
+    top: 10px;
+  }
+  img{
+    //width: 300px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main {
+    padding: 1px
+  }
+
+  .wrapper {
+    justify-content: space-between;
+    padding: 1px
+  }
+}
+
